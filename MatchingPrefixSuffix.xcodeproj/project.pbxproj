@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BB1DB7E928B148AD008EA32E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1DB7E828B148AD008EA32E /* main.m */; };
+		BB1DB7F128B149F3008EA32E /* MatchBruteForce.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1DB7F028B149F3008EA32E /* MatchBruteForce.m */; };
+		BB1DB7F428B153A8008EA32E /* MatchReasonableCandidates.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1DB7F328B153A8008EA32E /* MatchReasonableCandidates.m */; };
+		BB1DB7F728B16150008EA32E /* MicrosecondTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1DB7F628B16150008EA32E /* MicrosecondTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		BB1DB7E528B148AD008EA32E /* MatchingPrefixSuffix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MatchingPrefixSuffix; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1DB7E828B148AD008EA32E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB1DB7EF28B149F3008EA32E /* MatchBruteForce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchBruteForce.h; sourceTree = "<group>"; };
+		BB1DB7F028B149F3008EA32E /* MatchBruteForce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchBruteForce.m; sourceTree = "<group>"; };
+		BB1DB7F228B153A8008EA32E /* MatchReasonableCandidates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchReasonableCandidates.h; sourceTree = "<group>"; };
+		BB1DB7F328B153A8008EA32E /* MatchReasonableCandidates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchReasonableCandidates.m; sourceTree = "<group>"; };
+		BB1DB7F528B16150008EA32E /* MicrosecondTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicrosecondTimer.h; sourceTree = "<group>"; };
+		BB1DB7F628B16150008EA32E /* MicrosecondTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicrosecondTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				BB1DB7E828B148AD008EA32E /* main.m */,
+				BB1DB7EF28B149F3008EA32E /* MatchBruteForce.h */,
+				BB1DB7F028B149F3008EA32E /* MatchBruteForce.m */,
+				BB1DB7F228B153A8008EA32E /* MatchReasonableCandidates.h */,
+				BB1DB7F328B153A8008EA32E /* MatchReasonableCandidates.m */,
+				BB1DB7F528B16150008EA32E /* MicrosecondTimer.h */,
+				BB1DB7F628B16150008EA32E /* MicrosecondTimer.m */,
 			);
 			path = MatchingPrefixSuffix;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB1DB7F428B153A8008EA32E /* MatchReasonableCandidates.m in Sources */,
+				BB1DB7F728B16150008EA32E /* MicrosecondTimer.m in Sources */,
+				BB1DB7F128B149F3008EA32E /* MatchBruteForce.m in Sources */,
 				BB1DB7E928B148AD008EA32E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
