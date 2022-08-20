@@ -34,6 +34,7 @@
 		BB1DB7F328B153A8008EA32E /* MatchReasonableCandidates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchReasonableCandidates.m; sourceTree = "<group>"; };
 		BB1DB7F528B16150008EA32E /* MicrosecondTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicrosecondTimer.h; sourceTree = "<group>"; };
 		BB1DB7F628B16150008EA32E /* MicrosecondTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicrosecondTimer.m; sourceTree = "<group>"; };
+		BB9633A428B1805300BD6C1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 				BB1DB7F328B153A8008EA32E /* MatchReasonableCandidates.m */,
 				BB1DB7F528B16150008EA32E /* MicrosecondTimer.h */,
 				BB1DB7F628B16150008EA32E /* MicrosecondTimer.m */,
+				BB9633A428B1805300BD6C1E /* README.md */,
 			);
 			path = MatchingPrefixSuffix;
 			sourceTree = "<group>";
