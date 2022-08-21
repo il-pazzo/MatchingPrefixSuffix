@@ -10,5 +10,5 @@ Examples:
 "aaa"  => "a" (non-overlapping)
 "aba"  => "a"
 "abba" => "a"
-"abaabXabaab" => *"abaab"* ("ab" would have been a solution, but it's not the longest)
+"abaabXabaab" => "abaab" ("ab" would have been a solution, but it's not the longest)
 ```
